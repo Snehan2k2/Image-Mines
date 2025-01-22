@@ -23,7 +23,18 @@ source image_mines_env/bin/activate
 pip install --upgrade pip  # enable PEP 660 support
 pip install -r requirements.txt
 ```
+3. Loading the model
+You can download the model(s) from huggingface.  
+ - The base VLM weights are available at https://huggingface.co/lmms-lab/llama3-llava-next-8b
+ - The weights of the SigLIP model are available at https://huggingface.co/google/siglip-so400m-patch14-384 
+```Shell
+huggingface-cli download lmms-lab/llama3-llava-next-8b
+huggingface-cli download google/siglip-so400m-patch14-384
+```
+
+## Using the Algorithm
 
 ## Contributors
-- [Kalash Shah](https://github.com/Kalash1106)
-- [Snehan J](https://github.com/Snehan2k2)
+- Kalash Shah [![GitHub](https://i.sstatic.net/tskMh.png)](https://github.com/Kalash1106) [![Linkedin](https://i.sstatic.net/gVE0j.png)](https://www.linkedin.com/in/kalash-shah-b4567a20b)
+- Snehan J [![GitHub](https://i.sstatic.net/tskMh.png)](https://github.com/Snehan2k2) [![Linkedin](https://i.sstatic.net/gVE0j.png)](https://www.linkedin.com/in/snehan-jayakumar-641964188)
+- Gautam Bhutani [![Linkedin](https://i.sstatic.net/gVE0j.png)](https://in.linkedin.com/in/gautam-bhutani-26a2a21a5)
