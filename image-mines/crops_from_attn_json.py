@@ -6,8 +6,8 @@ from PIL import Image, ImageDraw
 from tqdm import tqdm
 import json
 
-from complexity.image_mines import get_mines
-from complexity.plot_utils import draw_blocks
+from mines.image_mines import get_mines
+from mines.plot_utils import draw_blocks
 
 def load_image_from_path(img_path):
     img = Image.open(img_path)
