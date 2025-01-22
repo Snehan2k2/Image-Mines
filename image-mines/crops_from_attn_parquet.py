@@ -5,8 +5,8 @@ import pickle
 from PIL import Image, ImageDraw
 from tqdm import tqdm
 
-from complexity.image_mines import get_mines
-from complexity.plot_utils import draw_blocks
+from mines.image_mines import get_mines
+from mines.plot_utils import draw_blocks
 
 def load_image(img_data):
     img = Image.open(io.BytesIO(img_data['bytes']))
