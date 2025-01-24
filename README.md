@@ -35,11 +35,12 @@ huggingface-cli download google/siglip-so400m-patch14-384
 ## Using the Algorithm
 You can follow the steps below to generate attention maps and bounding boxes for a single image. The process is split into two main stages, each explained in a seperate notebook file<br>
 
-1. Generate attention map
+1. **Generate attention map**
 
 The first step involved generating an attention map for a single image, which highlights areas of interest based on the model's attention. The code for this step is explained in the [attn.ipynb](./attn.ipynb) file.
 
-2. Generate bounding boxes
+2. **Generate bounding boxes**
+
 After obtaining the attention map, the next step is to generate bounding boxes that highlight the regions of interest. The corresponding code is explained in the [demo.ipynb](./demo.ipynb) file.
 
 ## Contributors
