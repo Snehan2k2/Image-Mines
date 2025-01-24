@@ -36,8 +36,8 @@ def eval(args):
         
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--parquet-path", type=str, default='/home/FRACTAL/kalash.shah/STRIM_codebase/dataset/VizWiz/3.parquet')
-    parser.add_argument("--output-path", type=str, default='/home/FRACTAL/snehan.j/hyperparameters/vizwiz_crops_w_box')
-    parser.add_argument("--attn-file", type=str, default='/home/FRACTAL/snehan.j/LLaVA-NeXT/attn-eval/vizwiz.pkl')
+    parser.add_argument("--parquet-path", type=str)
+    parser.add_argument("--output-path", type=str)
+    parser.add_argument("--attn-file", type=str)
     args = parser.parse_args()
     eval(args)

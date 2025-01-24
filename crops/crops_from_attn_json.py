@@ -43,9 +43,9 @@ def eval(args):
         
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--json-path", type=str, default='/home/FRACTAL/snehan.j/image-mines/crops/COCO/coco_final.json')
-    parser.add_argument("--output-path", type=str, default='/home/FRACTAL/snehan.j/crops/coco_crops')
-    parser.add_argument("--attn-file", type=str, default='/home/FRACTAL/snehan.j/LLaVA-NeXT/attn-eval-final/coco.pkl')
-    parser.add_argument("--folder-path", type=str, default='/home/FRACTAL/snehan.j/image-mines/crops/COCO/images')
+    parser.add_argument("--json-path", type=str)
+    parser.add_argument("--output-path", type=str)
+    parser.add_argument("--attn-file", type=str)
+    parser.add_argument("--folder-path", type=str)
     args = parser.parse_args()
     eval(args)
