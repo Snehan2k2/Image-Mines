@@ -46,3 +46,6 @@ After obtaining the attention map, the next step is to generate bounding boxes t
 ## Contributors
 - Kalash Shah [![GitHub](https://i.sstatic.net/tskMh.png)](https://github.com/Kalash1106) [![Linkedin](https://i.sstatic.net/gVE0j.png)](https://www.linkedin.com/in/kalash-shah-b4567a20b)
 - Snehan J [![GitHub](https://i.sstatic.net/tskMh.png)](https://github.com/Snehan2k2) [![Linkedin](https://i.sstatic.net/gVE0j.png)](https://www.linkedin.com/in/snehan-jayakumar-641964188)
+- Gautam Bhutani
+- Kunal Singh
+- Shreyas Singh
